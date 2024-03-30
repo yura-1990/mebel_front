@@ -13,7 +13,7 @@ import { connect } from 'react-redux'
 
 function Header({ getChangLang, allOfficeMebel, allSoftMebels, homeMebels, kitchenMebels, loftOfficeMebels, officeMebels }) {
   const [lang, setLang] = useState(['uz', 'ru'])
-  const [currentLang, setCurrentLang] = useState('uz')
+  const [currentLang, setCurrentLang] = useState('ru')
   
   function changeLang(lang) {
     setCurrentLang(lang)
@@ -21,7 +21,6 @@ function Header({ getChangLang, allOfficeMebel, allSoftMebels, homeMebels, kitch
   }
   
   return (
-
     <nav className="navbar navbar-expand-xl bg-season shadow">
       <div className="container-fluid ">
         <Link className="navbar-brand logo" to="/">

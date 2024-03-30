@@ -24,7 +24,7 @@ const Block = React.lazy(() => import('./Components/pages/Block'));
 
 
 function App({allOfficeMebel,getDataFromBack,officeMebels, getOfficeMebelsFromBack, loftOfficeMebels,getLoftOfficeMebelsFromBack,homeMebels,getHomeMebelsFromBack,kitchenMebels,getKitchenFurnitureFromBack,allSoftMebels,getAllSoftMebelsFromBack}) {
-  const [curLang, setCurLang] = useState('uz')
+  const [curLang, setCurLang] = useState('ru')
   
   useEffect(()=>{
     getDataFromBack(curLang)
