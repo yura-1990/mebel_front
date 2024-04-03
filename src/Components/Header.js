@@ -74,11 +74,11 @@ function Header({ getChangLang, allOfficeMebel, allSoftMebels, homeMebels, kitch
               <Link className="nav-link fs-5  menu-link text-center" to="/about">{currentLang === "ru" ? ru['Biz haqimizda'] : uz['O Нас']}</Link>
             </li>
           </ul>
-          <p className="nav-item p-0 mt-0 mb-0 m-auto">
+          <span className="nav-item p-0 mt-0 mb-0 m-auto">
             <a className="nav-link d-flex justify-content-center p-0" href="tel:+998901832233" >
-              <p className="py-xl-0 m-xl-0 pb-0 py-2 menu-link menu-phone">+998901832233</p>
+              <span className="py-xl-0 m-xl-0 pb-0 py-2 menu-link menu-phone">+998901832233</span>
             </a>
-          </p>
+          </span>
           <ul className="navbar-nav flex-xl-row flex-row justify-content-center gap-3 align-items-center">
             <li className="nav-item">
               <a className="nav-link" href="https://t.me/MebelCityOfficial">

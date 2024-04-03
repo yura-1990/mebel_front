@@ -239,6 +239,20 @@ body {
   min-height: 350px !important;
 }
 
+.scroll-down{
+  /* transition: 2s linear; */
+  bottom: 50%;
+  transform: translateY(50%);
+  right: 10px;
+}
+
+@media(max-width:1128px){
+
+  .home-banner{
+    margin-top: 85px;
+  }
+}
+
 @media(max-width:395px) {
   .navbar-toggler {
     margin: auto;
@@ -256,11 +270,24 @@ body {
   margin-top: 85px;
 }
 
+
+
 @media(max-width:380px){
   .category-top{
     margin-top: 160px;
   }
 }
+
+@media(max-width:379px){
+  .home-banner{
+    margin-top: 155px;
+  }
+}
+
+
+
+
+
 #app { height: 100% }
 html,
 body {
@@ -410,11 +437,13 @@ body {
 }
 
 .home-banner{
-  height: 100vh;
-  background: #000;
+  /* object-fit: cover;
   background-image: url('./img/banner-home.jpg');
-  background-position: bottom;
-  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  */
+  overflow-y: hidden;
 }
 
 

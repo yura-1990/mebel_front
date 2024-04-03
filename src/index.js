@@ -16,7 +16,7 @@ root.render(
     <Router>
       <Provider store={store}>
         <Suspense fallback={<div>Loading...</div>}>
-            <App />
+          <App />
         </Suspense>
       </Provider>
     </Router>
